@@ -23,4 +23,3 @@ router.put("/:id", taskController_1.updateTask);
 // 🗑️ Delete a task
 router.delete("/:id", taskController_1.deleteTask);
 exports.default = router;
-//# sourceMappingURL=task.routes.js.map

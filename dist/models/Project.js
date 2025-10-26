@@ -76,4 +76,3 @@ const projectSchema = new mongoose_1.Schema({
 // Index for faster queries
 projectSchema.index({ userId: 1, status: 1 });
 exports.default = mongoose_1.default.model('Project', projectSchema);
-//# sourceMappingURL=Project.js.map

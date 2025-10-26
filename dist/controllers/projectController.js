@@ -135,4 +135,3 @@ const deleteProject = async (req, res) => {
     }
 };
 exports.deleteProject = deleteProject;
-//# sourceMappingURL=projectController.js.map

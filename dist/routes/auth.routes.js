@@ -16,4 +16,3 @@ router.post("/login", [
 ], authController_1.login);
 router.get("/profile", auth_middleware_1.authenticateToken, authController_1.getProfile);
 exports.default = router;
-//# sourceMappingURL=auth.routes.js.map

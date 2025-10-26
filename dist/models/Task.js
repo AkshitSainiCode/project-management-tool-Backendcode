@@ -82,4 +82,3 @@ const taskSchema = new mongoose_1.Schema({
 // Index for faster queries
 taskSchema.index({ projectId: 1, status: 1 });
 exports.default = mongoose_1.default.model('Task', taskSchema);
-//# sourceMappingURL=Task.js.map

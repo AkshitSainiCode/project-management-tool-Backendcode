@@ -24,4 +24,3 @@ router.put("/:id", [
 // 🗑️ Delete a project
 router.delete("/:id", projectController_1.deleteProject);
 exports.default = router;
-//# sourceMappingURL=project.routes.js.map
